@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 9221259570164607796}
   - component: {fileID: 9221259570164607797}
   - component: {fileID: 9221259570164607798}
-  - component: {fileID: 9221259570164607799}
-  - component: {fileID: 9221259570164607794}
   - component: {fileID: 9221259570164607793}
   m_Layer: 0
   m_Name: Player
@@ -89,34 +87,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &9221259570164607799
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9221259570164607752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45592d94139087549b21b6356d766306, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementMask:
-    serializedVersion: 2
-    m_Bits: 512
-  focus: {fileID: 0}
---- !u!114 &9221259570164607794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9221259570164607752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e4e181a8e2885943aedaf3cfaaf556f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &9221259570164607793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -192,6 +162,10 @@ PrefabInstance:
       propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 13700000, guid: 73be9633513854604baae3aa06041436, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3ed725f7d4fa6408cab10eb306af6454, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73be9633513854604baae3aa06041436, type: 3}
 --- !u!4 &9221259570350595533 stripped
